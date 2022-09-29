@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <title>Employee Details </title>
+        <style>
+         label{
+            color:gray;
+            font-size: large;
+            font-weight: bold;
+         }
+         input[type="text"]{
+            background:greenyellow;
+         }
+         input[type="email"]{
+            background:greenyellow;
+         }
+         input[type="password"]{
+            background:greenyellow;
+         }
+
+        </style>
+   </head>
+   <body>
+
+    <h1> Employee Details Form</h1>
+    <form>
+        <table>
+            <tbody>
+                <tr>
+                    <td><label>Full Name:</label></td>
+                    <td><input type="text" autofocus requried maxlength="40"></td>
+                </tr>
+                <tr>
+                    <td><label>Email Address:</label></td>
+                    <td><input type="email" required placeholder="abc@gmail.com" ></td>
+                 </tr>
+                 <tr>
+                    <td><label>Password:</label></td>
+                    <td><input type="password" required placeholder="Password" ></td>
+                 </tr>
+                 <tr>
+                    <td><label>Contact Number:</label></td>
+                    <!-- <td><input maxlength="10" required ></td> -->
+                    <td><input type="number" required ></td>
+                 </tr>
+                 <tr>
+                    <td><label>Profile Photo:</label> </td>
+                    <td><input type="file"></td>
+                 </tr>
+                 <tr>
+                    <td><label>Date of Birth:</label></td>
+                    <td><input type="date" required></td>
+                 </tr>
+                 <tr>
+                    <td><lable>Gender:</lable></td>
+                    <td>
+                        <input type="radio" name="gender"><label>Male</label>
+                        <input type="radio" name="gender"><label>Female</label>
+                        
+                    </td>
+                 </tr>
+                 <tr>
+                    <td><label>Marrital Stutas:</label></td>
+                    <td>
+                        <input type="radio" name="stutas"><label>yes</label>
+                        <input type="radio" name="stutas"><label>No</label>
+                    </td>
+                    </tr>
+                 <tr>
+                    <td><label>Know Tools & Technology:</label></td>
+                    <td>
+                    <input type="checkbox"><label><b>Angular</b></label>
+                    <input type="checkbox" ><label><b>React</b></label>
+                   <input type="checkbox" ><label><b>Paython</b></label>
+                    <input type="checkbox" ><label><b>Java</b></label>
+                    <input type="checkbox" ><label><b>Jenkit</b></label>
+                    <input type="checkbox" ><label><b>Git</b></label>
+                    <input type="checkbox" ><label><b>Database</b>></label>
+                    </td>
+                 </tr>
+                 <tr>
+                     <td><label>Profile:</label></td>
+                     <td><select>
+                        <option>UI Devoloper</option>
+                        <option>Back Devoloper</option>
+                        <option>Full Stack Devoloper</option>
+                        <option>Deoops</option>
+                        <option>Engineer</option>
+                        <option>Engineer</option>
+                     </select></td>
+                 </tr>
+                 <tr>
+                    <td><label>Country:</label></td>
+                    <td><input type="text" value="India" readonly></td>
+                 </tr>
+                 <tr>
+                    <td>Present Address:</td>
+                    <td><textarea rows="7" cols="30"></textarea></td>
+                 </tr>
+                 <tr>
+                    <td><input type="submit"></td>
+                    <td><input type="reset" value="Clear"></td>
+                 </tr>
+
+            </tbody>
+        </table>
+    </form>
+   </body>
+</html>
