@@ -10,66 +10,65 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Poppins:ital,wght@0,800;0,900;1,400&display=swap" rel="stylesheet">
     <style>
-
-      *{
-        background-color: lightsalmon;
+      header div   .header{
+        margin-right: 30px;
+        
       }
-        #nav_bar{
-        font-family: 'Dancing Script', cursive;
-         font-family: 'Poppins', sans-serif;
-        }
-         iframe{
-            background-color: bisque;
+      #nav_bar a{
+        margin-right:40px;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        text-shadow: 4px 2px 5px darkorange;
+      
+      }
+        
+         footer div .follow_me{
+          margin-right: 30px;
+          color: blue;
          }
-         p{
-            background-color: burlywood;
-            text-align: right;
-            margin: auto;
-            padding: 10px;
+         footer div #follow_lable{
+             margin-right: 30px;
+             font-size: large;
+             font-weight: bold;
+         }
 
-         }
-          a{
-            text-decoration: none;
-            font-family: 'Poppins', sans-serif;
-         } 
-         i{
-            color: red;
-         }
+        
     </style>
 </head>
 <body>
     <header>
-    <p>
-    
-        <span><b><i class="bi bi-person-fill"></i>&nbsp;Sachin sarasambi</b></span>&nbsp;&nbsp;&nbsp;&nbsp;
-        <span><b><i class="bi bi-telephone-forward-fill"></i>&nbsp;7387&nbsp;1394&nbsp;53</b></span>&nbsp;&nbsp;&nbsp;&nbsp;
-        <span><b><i class="bi bi-envelope-fill"></i>&nbsp;sachin51@gmail.com</b></span>
-    </p>
+      <div>
+      <span class="header"><b><i class="bi bi-person-fill"></i>Sachin sarasambi</b></span>
+        <span  class="header"><b><i class="bi bi-telephone-forward-fill"></i>7387139453</b></span>
+        <span  class="header"><b><i class="bi bi-envelope-fill"></i>sachin51@gmail.com</b></span>
+        </div>
     </header>
     
     <br>
+    
     <nav id="nav_bar">
-        <a href="home.html" target="my_frame">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a  href="teckStack.html" target="my_frame">TECHSTACK</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="collageDetails.html" target="my_frame">COLLAGEDETAILS</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="personalDetails.html" target="my_frame">PERSONALDETAILS</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="educationDetails.html" target="my_frame">EDUCATIONDETAILS</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="projectDetails.html" target="my_frame">PROJECTDETAILS</a>
-        <a href="other.html" target="my_frame">OTHER</a>
-    </nav>
 
-    <iframe name="my_frame" width="800px" height="500px"></iframe>
+     <a href="home.html" target="my_frame">HOME</a>
+       <a  href="teckStack.html" target="my_frame">TECHSTACK</a>
+       <a href="collageDetails.html" target="my_frame">COLLAGEDETAILS</a>
+       <a href="personalDetails.html" target="my_frame">PERSONALDETAILS</a>
+       <a href="educationDetails.html" target="my_frame">EDUCATIONDETAILS</a>
+        <a href="projectDetails.html" target="my_frame">PROJECTDETAILS</a>
+       <a href="other.html" target="my_frame">OTHER</a>
+       <a href="registrationForm.html" target="my_frame">registrationForm</a>
+       </nav>
+
+    <iframe name="my_frame" width="1000px" height="1000px" ></iframe>
 
     <footer>
-         <BR>
-        <span><B>FOLLOW ME </B></span>&nbsp;&nbsp;&nbsp;&nbsp;
-        <i class="bi bi-linkedin"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-        <i class="bi bi-google"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-        <i class="bi bi-instagram"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-        <i class="bi bi-facebook"></i>
-
-
-    </footer>
+         <div>
+        <span id="follow_lable">Follow me</span>
+        <span class="follow_me"><i class="bi bi-linkedin"></i></span>
+        <span class="follow_me"><i class="bi bi-google"></i></span>
+        <span class="follow_me"><i class="bi bi-instagram"></i></span>
+        <span class="follow_me"><i class="bi bi-facebook"></i></span>
+      </div>
+      </footer>
     
 </body>
 </html>
